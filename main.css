@@ -1,0 +1,317 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 300 17px 'Open Sans', sans-serif;
+  color: #777;
+}
+
+/* -------------------------------------------------------- Nav -----------------------------------------------------*/
+
+
+/* -------------------------------------------------------- CONTENT -----------------------------------------------------*/
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8, .bgimg-9, .bgimg-10 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-5, .bgimg-6, .bgimg-8, .bgimg-9, {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+}
+
+.bgimg-1 {
+  background-image: url("https://images.unsplash.com/photo-1483559173893-ebebbaa066f4?dpr=0.75&auto=compress,format&fit=crop&w=376&h=251&q=80&cs=tinysrgb&crop=");
+  min-height: 450px;
+}
+
+.bgimg-2 {
+  background-image: url("https://images.unsplash.com/photo-1483559173893-ebebbaa066f4?dpr=0.75&auto=compress,format&fit=crop&w=376&h=251&q=80&cs=tinysrgb&crop=");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("https://images.unsplash.com/photo-1483559173893-ebebbaa066f4?dpr=0.75&auto=compress,format&fit=crop&w=376&h=251&q=80&cs=tinysrgb&crop=");
+  min-height: 400px;
+}
+
+.bgimg-4 {
+  background-image: url("https://images.unsplash.com/photo-1483559173893-ebebbaa066f4?dpr=0.75&auto=compress,format&fit=crop&w=376&h=251&q=80&cs=tinysrgb&crop=");
+  min-height: 400px;
+}
+
+/* ---- Case Study ---- */
+.bgimg-5 {
+  background-image: url("https://images.unsplash.com/photo-1483559173893-ebebbaa066f4?dpr=0.75&auto=compress,format&fit=crop&w=376&h=251&q=80&cs=tinysrgb&crop=");
+  min-height: 400px;
+}
+
+
+.bgimg-6 {
+  background-image: url("https://images.unsplash.com/photo-1483559173893-ebebbaa066f4?dpr=0.75&auto=compress,format&fit=crop&w=376&h=251&q=80&cs=tinysrgb&crop=");
+  min-height: 400px;
+}
+
+
+.bgimg-7 {
+  background-image: url("https://images.unsplash.com/photo-1483559173893-ebebbaa066f4?dpr=0.75&auto=compress,format&fit=crop&w=376&h=251&q=80&cs=tinysrgb&crop=");
+  min-height: 400px;
+}
+
+/* ---- Team ---- */
+
+.bgimg-8 {
+  background-image: url("https://images.unsplash.com/photo-1483559173893-ebebbaa066f4?dpr=0.75&auto=compress,format&fit=crop&w=376&h=251&q=80&cs=tinysrgb&crop=");
+  min-height: 400px;
+}
+
+
+.bgimg-9 {
+  background-image: url("https://images.unsplash.com/photo-1483559173893-ebebbaa066f4?dpr=0.75&auto=compress,format&fit=crop&w=376&h=251&q=80&cs=tinysrgb&crop=");
+  min-height: 400px;
+}
+
+
+.bgimg-10 {
+  background-image: url("https://images.unsplash.com/photo-1483559173893-ebebbaa066f4?dpr=0.75&auto=compress,format&fit=crop&w=376&h=251&q=80&cs=tinysrgb&crop=");
+  min-height: 400px;
+}
+
+.caption, .caption-cta {
+  position: absolute;
+  left: 0;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+[class^="hvr-"] {
+    margin: .4em;
+    padding: 1em;
+    cursor: pointer;
+    background: #e1e1e1;
+    text-decoration: none;
+    color: #666;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.cta, h2.border, h2.borderless {
+    font-size:20px;
+    letter-spacing: 10px;
+    padding: 18px;
+}
+
+.cta, h2.border {
+  color: #efefef;
+  line-height: 2.6;
+  max-width: 375px;
+  margin: 0 auto;
+  opacity: .9;
+}
+
+.cta {
+  background-color: #00E08A;
+}
+
+.cta:hover {
+  color: #ffffff;
+}
+
+
+
+h2.border {
+  background-color: #111;
+}
+
+
+h2.borderless {
+    background-color:transparent;
+    color: #f7f7f7;
+    line-height: 1.6;
+}
+
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+  text-align: left;
+  padding-bottom: 12px;
+}
+
+h3.name {
+  text-align: center;
+}
+
+p {
+  font: 300 17px "Lato", sans-serif;
+  line-height: 28.9px;
+}
+
+b {
+  font-weight: 500;
+}
+
+a {
+  font-weight: 400;
+}
+
+img.logo-black {
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+    padding-top: 50px;
+    opacity: .6;
+}
+
+.what-we-do, .about, .contact,.team-member {
+  color: #777;
+  background-color:white;
+  text-align:center;
+  text-align: left;
+  position: relative;
+  max-width: 270px;
+  margin: 0 auto;
+}
+
+.what-we-do, .about, .contact {
+  padding: 70px 24px 120px 24px;
+}
+
+.profiles {
+  padding-top: 100px;
+}
+
+.team-member {
+  padding: 20px 24px 80px 24px;
+}
+.team-member-div {
+  padding-bottom: 30px;
+  text-align: center;
+}
+.team-member-img {
+  height: 200px;
+}
+
+/* http://ianlunn.co.uk/articles/hover-css-tutorial-introduction/ */
+
+a.cta.hvr-underline-from-center {
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+
+@media only screen and (min-width: 650px) {
+  .caption, .caption-cta {
+    top: 40%;
+  }
+  .cta, h2.border, h2.borderless {
+    font-size: 25px;
+  }
+  .cta, h2.border {
+    max-width: 460px;
+  }
+  .what-we-do, .about, .contact {
+      padding: 90px 0px 160px 0px;
+      max-width: 540px;
+  }
+  .team-member {
+    padding: 20px 24px 100px 24px;
+    max-width: 540px;
+  }
+}
+
+
+/*! ---------------------------------------- Footer ----------------------------------------- */
+
+.footer {
+  background-color: #fff;
+  height: 280px;
+}
+
+/*! -------------- Hover -------------- */
+
+#seeMoreStories {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 0px;
+  padding-top: 40px;
+  opacity: .7;
+}
+
+#404-p {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 0px;
+  padding-top: 40px;
+}
+
+#404-p {
+  padding-top: 300px;
+}
+
+.footer-list-item a, #404-home {
+    text-decoration: none;
+    opacity: 0.75;
+    color: #111;
+    font-weight: 200;
+}
+
+.footer-list li a, #404-home:hover {
+  opacity: 1;
+  color: #111;
+}
+
+/*! -------------- Footer Lists -------------- */
+
+.footer-list, .footer-icons {
+    list-style: none;
+    padding: 0px;
+    display: block;
+    text-align: center;
+    margin: 0;
+}
+
+.footer-icons {
+  padding-top: 30px;
+}
+
+.footer-icons li img {
+  opacity: 0.8;
+}
+.footer-icons li img:hover {
+  opacity: 1;
+}
+
+li.footer-list-item {
+      display: inline-block;
+      list-style: none;
+      padding: 8px;
+      margin: 8px 12px 8px 12px;
+      text-decoration: none;
+}
+
+li.mail, li.instagram, li.facebook {
+        display: inline-block;
+        padding: 16px;
+}
+
+@media only screen and (min-width: 650px) {
+    #seeMoreStories {
+        padding-top: 60px;
+    }
+}
